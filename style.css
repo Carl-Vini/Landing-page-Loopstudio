@@ -1,0 +1,201 @@
+body {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.header-box {
+    background-image: url(images/images-desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    padding: 35% 0;
+    padding-top: 25px;
+    font-family: 'Alata', sans-serif;
+    display: grid;
+    gap: 450px;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 90px;
+   
+}
+
+.logo {
+    position: relative;
+    left: 80%;
+}
+
+
+.navigation {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    right: 20%;
+    
+}
+
+.navigation p {
+    padding: 0 16px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 350px;
+    left: 9.5%;
+    box-sizing: border-box;
+    border: 3px solid white;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+
+
+
+.middle {
+    display: grid;
+    grid-template-columns: 35% 35% ;
+    gap: 20px;
+    position: relative;
+    left: 9.5%;
+    margin-bottom: 120px;
+}
+
+
+.img-middle {
+    width: 100%;
+    object-fit: cover;
+    clip-path: polygon(35% 0%,65% 0%,100% 0%,100% 35%,77% 35%,77% 59%,77% 100%,35% 100%,0% 100%,0% 60%,0% 35%,0% 0%);
+
+}
+
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transform: translate(-20%, 0%);
+    position: relative;
+}
+
+
+.title-middle {
+    font-size: 40px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.title-continue {
+    margin-top: 20px;
+    color: hsl(0, 0%, 41%);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+.creations-segment {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 9%;
+}
+
+.creations {
+    padding-right: 50%;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.see {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 0.5em;
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 180px;
+    padding: 4px 20px 10px 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+    background-color: black;
+    color: white;
+    padding-top: 35px;
+   
+    
+    
+}
+
+.logo-bot {
+    width: 70%;
+    
+}
+
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    left: 9.5%;
+    
+}
+
+.social svg {
+    margin-right: 15px;
+}
+
+.navigation-bottom {
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+    left: 9.3%;
+    font-weight: bold;
+}
+
+.navigation-bottom p {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.rights {
+    position: relative;
+    display: inline-block;
+    left: 75%;
+    top: -20px;
+}
