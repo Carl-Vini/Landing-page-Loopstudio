@@ -1,11 +1,10 @@
-const buttonSee = document.querySelector('.see');
-const elementH4 = document.querySelectorAll('h4'); 
+const seeAll = document.querySelector('.see');
+const show = document.querySelector('.show');
 
-buttonSee.addEventListener('click', () => {
-    if (elementH4.style.display === 'none') {
-        elementH4.style.display = 'block';
-    }
-    else {
-        elementH4.style.display = 'none'
-    }
-});
+
+setTimeout(seeAll.addEventListener('click', () => {
+  show.classList.toggle('show--active')
+}), 5000)
+
+
+// a fuction funciona, mas o timeout não kkkk, deixei o valor auto pra perceber a mudança e nada
